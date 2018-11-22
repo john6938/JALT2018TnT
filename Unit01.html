@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="thesisWritingv1.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <title>Thesis writing EN08</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://web-ext.u-aizu.ac.jp/~jblake/favicon.ico"/>
+
+</head>
+
+<body>
+  <ul class="sidenav">
+        <li><a class="active" href="Unit01.html">JALT TNT</a></li>
+    </ul>
+    <div class="content">
+        <h2>JALT 2018 Technology in Teaching Workshop</h2>
+
+        <h3>Visualizing language: Using Regex and JavaScript</h3>
+        <div class="outcome">
+            <h4><i class="em em-owl"></i>Learning outcomes </h4>
+            <p>By the end of this workshop you should:</p>
+            <ul>
+              <li>have identified a language feature worthy of focus</li>
+              <li>have analyzed the underlying patterns</li>
+              <li>identified rules that can be found</li>
+              <li>understand the functions of html, css and JavaScript</li>
+              <li>understand how regular expressions work</li>
+              <li>be able to adapt simple match-and-replace JavaScript expression<br>
+        </li></ul></div>
+       <div>
+        <h3 class="">Introductions</h3>
+        <h4 class="activity">Activity 1 <i class="em em-left_speech_bubble"></i> </h4>
+        <p class="instruction">Work in pairs or small groups. Take it in turns to introduce yourselves by  stating your name, teaching situation and reason for attending this workshop. Get to know each other by asking and answering questions.</p>
+        <p><u>Useful phrases</u></p>
+        <ul>
+         <li>I'm [name]. I know (nothing | a little | quite a bit) about regular expressions.</li>
+         <li>In my (school | college | university ) we .....</li>
+         <li>I ( have | have not) made a webpage before.</li>
+        </ul>
+        <p class="instruction">Remember the  information for the next activity. Ask and answer questions. Get to know your classmates.         </p>
+       </div>
+<div>
+<h3 class="">Website basics</h3>
+<h4 class="activity">Activity 2 <i class="em em-thinking_face"></i> </h4>
+  <p class="instruction">Work in pairs or small groups. Discuss your answers to the following questions about websites.</p>
+  <ol>
+    <li>Which language is usually used for content?</li>
+    <li>Which language is usually used to contol style?</li>
+    <li>Which language usually controls behaviour? </li>
+    <li>Which language is usually used to control interactions?</li>
+    <li>What is server-side?</li>
+    <li>What is client-side?</li>
+    <li>What is a JavaScript library?</li>
+    <li>What are regular expressions?</li>
+    <input class="spoilerbutton width-50px"" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';"></button>
+ <div class="spoiler">
+ <div>
+   <ol>
+     <li>hypertext mark-up language (.html) </li>
+     <li>cascading styling sheets (.css)</li>
+     <li>Javascript (.js)</li>
+     <li>PHP (.php), Hypertext Preprocessor, a server-side scripting language.</li>
+     <li>Server-side describes actions occuring on the web.</li>
+     <li>Client-side describes actions on the user`s computer.</li>
+     <li>A JavaScript library is a collection of pre-written JavaScript code. Common libraries include JQuery, Ajax, Angular</li>
+     <li>Regular expressions (regex, regexp) are patterns that used to match character combinations in strings. Regex can search for particular combinations of words, prefixes, suffixes and letters within texts.</li>
+   </ol>
+ </div>
+  </ol>
+  </div>
+<div>
+        <h3 class="">Patterns and pedagogy</h3>
+        <h4 class="activity">Activity 3 <i class="em em-left_speech_bubble"></i> </h4>
+        <p class="instruction">Work in pairs or small groups. Decide which language features you would focus on for the following groups of students.</p>
+  <p><u>Scenarios</u></p>
+      <ol>
+        <li>Graduate students who have to have a research article (written in English) published in a scientific journal in order to graduate.</li>
+        <li>Undergraduate students who need to describe a process in English in their laboratory report.</li>
+        <li>Undergraduate English majors who overuse linking expressions in their narrative writing.</li>
+        <li>High school students who need to understand complex grammar (e.g. conditionals) to pass the Center Shiken.</li>
+        <li>Junior school students struggling with present perfect continous and present perfect simple.</li>
+        <li>Elementary school students who have to describe common household items.</li>
+      </ol>
+</div>
+<div>
+        <h3 class="">Your tool</h3>
+        <h4 class="activity">Activity 4 <i class="em em-left_speech_bubble"></i> </h4>
+        <p class="instruction">Decide which language features you want to focus on for your students. Identify which patterns you need to identify. Identify any potential problems.</p>
+  <p><u>Example</u></p>
+      <ol>
+        <li>Aim: help students pronounce &quot;-ed&quot; endings of regular verbs</li>
+        <li>Actual pattern: final sound of base form of verb</li>
+        <li>Findable Pattern: letters that realize the final sound, e.g. /f/ = f sound, but /gh/ = f sound (as in laugh)</li>
+        <li>Potential problem: homographs, e.g. learned /d/ and learned /id/</li>
+      </ol>
+</div>
+<div>
+<h3 class="">Regular expressions in action</h3>
+  <h4 class="activity">Activity 5 <i class="em em-desktop_computer"></i></h4>
+   <p>This simple tool can provide simple positive and negative responses to closed questions.</p>
+
+  <p class="instruction">Try out the <a href="https://codepen.io/john6938/live/rKreZK">Automatic responder</a>.<br>
+ </p>
+  <iframe width="560" height="315" src="https://codepen.io/john6938/live/rKreZK" frameborder="0"></iframe>
+</div>
+<div>
+
+        <h3 class="">More example of the power of regex</h3>
+<h4 class="activity">Activity 6</h4>
+         <p>The links below are to two tools that visualize language features using regular expressions.</p>
+         <p class="instruction">Try each tool out. Try to work out how each tool works.</p>
+  <ul>
+           <li><a href="http://www.jb11.org/pronunciationScaffolder.html">Pronunciation Scaffolder</a></li>
+            <li><a href="https://john6938.github.io/move-visualizer-master/">Move visualizer</a></li>
+         </ul>
+  <p class="instruction">Work in pairs. Explain how each tool works.</p>
+  </div>
+<div>
+<h3 class="">Regular expressions</h3>
+  <h4 class="activity">Activity 7 <i class="em em-desktop_computer"></i></h4>
+   <p>Regular expressions can look daunting. However, most times simple regular expressions will suffice. There are many types of regular expressions and in each computer language, they work slightly differently. In this workshop, we focus on regular expressions used in JavaScript. This presentation aims to introduce you to the key details of regular expressions. The aim is for you to remember all the details, but to have a general overall. Mr Google is probably going to assit you in finding code that someone else has already written. Rather than great programming skills, you should initially focus on developing great search skills.</p>
+
+  <p class="instruction">The url of the presentation embedded below is <a href="https://slideshare.net/john6938">here</a>.<br>
+ </p>
+  <iframe width="560" height="315" src="https://slideshare.net/john6938" frameborder="0"></iframe>
+</div>  
+<div>
+<h3 class="">Coding Train: Introduction to Regex</h3>
+  <h4 class="activity">Optional Activity (11 min video)<i class="em em-desktop_computer"></i></h4>
+   <p class="instruction">Put on your earphones and get ready to ride the coding train with its enthusiastic presenter.
+ </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7DG3kCDx53c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>              
+<div>
+<h3 class="">Regular expression check</h3>
+<h4 class="activity">Activity 8 <i class="em em-thinking_face"></i> </h4>
+  <p class="instruction">Work in pairs or small groups. Discuss your answers to the following questions about websites.</p>
+  <ol>
+    <li>Which </li>
+    <li>Which</li>
+    <li>Which </li>
+    <li>Which </li>
+    <li>What</li>
+    <li>What</li>
+    <li>What </li>
+    <li>What ?</li>
+    <input class="spoilerbutton width-50px"" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';"></button>
+ <div class="spoiler">
+ <div>
+   <ol>
+     <li>h</li>
+     <li>c</li>
+     <li>J</li>
+     <li>P</li>
+     <li>S</li>
+     <li>C</li>
+     <li>A </li>
+     <li>R</li>
+   </ol>
+ </div>
+  </ol>
+</div>
+<div>
+<h3 class="">Codepen</h3>
+<h4 class="activity">Activity 9 <i class="em em-thinking_face"></i> </h4>
+  <ol>
+  <li><i>Either join, sign-in or log on as a guest user to <a href="https://codepen.io/">CodePen</a>.</i>
+    <li><i>Explore this template.</i></li>
+    <li><i>Fork this template and rename it.</i></li>
+    <li><i>Alter one item and immediately check the program still works. If you see a white exclamation mark in a red circle, press Ctrl + z to return to a working version.</i></li>
+    <li><i>Keep changing the code incrementally until you finish.</i></li>
+  </ol>
+  </div>
+
+<div class="review">
+<h4><i class="em em-frog "></i> Workshop review</h4>
+<p class="instruction">Answer these questions. </p>
+<ul>
+  <li>Can you explain the difference between html, css and js?</li>
+  <li>Can you adapt a simple template for one item?</li>
+  <li>Can you use Ctrl + z if the code breaks?</li>
+  <li>Can you use Google to search for regular expressions?</li>
+</ul>
+<p class="instruction">Find out the answers to any questions that you could not answer.</p>
+</div>
+<div>
+<div class="motivation">
+<h4>Help line</h4>
+<p class="instruction">Create your tool. If it does not work completely or properly, simply email the Codepen link to me, and I will try to solve the problem.</p>
+<br>
+</div>
+</div>
+
+</body>
+</html>
